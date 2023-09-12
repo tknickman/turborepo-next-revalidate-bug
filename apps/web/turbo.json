@@ -6,7 +6,7 @@
       "dependsOn": ["^build"],
       "outputs": [".next/**", "!.next/cache/**"],
       "env": [],
-      "passThroughEnv": ["VERCEL_*", "NEXT_*", "TURBO_*", "HOME", "CI", "VERCEL", "FLUENT_*", "USE_OUTPUT_FOR_EDGE_FUNCTIONS", "PATH", "NODE_*", "NODE_ENV", "TZ", "NOW_*", "PWD", "SHLVL", "LANG", "FAKEROOTKEY", "ENABLE_VC_BUILD", "ECS_*", "AWS_*", "DD_*"]
+      "passThroughEnv": ["TZ", "NOW_*", "PWD", "SHLVL", "LANG", "FAKEROOTKEY", "ENABLE_VC_BUILD", "ECS_*", "AWS_*", "DD_*"]
     },
     "lint": {},
     "dev": {
