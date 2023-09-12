@@ -6,7 +6,7 @@
       "dependsOn": ["^build"],
       "outputs": [".next/**", "!.next/cache/**"],
       "env": [],
-      "passThroughEnv": ["TZ", "NOW_*", "PWD", "SHLVL", "FAKEROOTKEY", "ENABLE_VC_BUILD"]
+      "passThroughEnv": ["TZ", "ENABLE_VC_BUILD"]
     },
     "lint": {},
     "dev": {
