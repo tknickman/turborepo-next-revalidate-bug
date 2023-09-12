@@ -6,7 +6,7 @@
       "dependsOn": ["^build"],
       "outputs": [".next/**", "!.next/cache/**"],
       "env": [],
-      "passThroughEnv": []
+      "passThroughEnv": ["NOW_BUILDER"]
     },
     "lint": {},
     "dev": {
