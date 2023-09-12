@@ -15,8 +15,7 @@ export default async function handler(
     await response.revalidate(path);
     response.json({ revalidated: true, path });
   } catch (err: unknown) {
-    // If there was an error, Next.js will continue
-    // to show the last successfully generated page
+    // @ts-expect-error ignore "err unknown" error
     response.status(500).json({ error: "Error revalidating: " + err.message });
   }
 }
