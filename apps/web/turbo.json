@@ -6,7 +6,7 @@
       "dependsOn": ["^build"],
       "outputs": [".next/**", "!.next/cache/**"],
       "env": [],
-      "passThroughEnv": ["VERCEL_"]
+      "passThroughEnv": ["VERCEL_*"]
     },
     "lint": {},
     "dev": {
